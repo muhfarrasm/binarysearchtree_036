@@ -29,7 +29,6 @@ public:
 
 	void insert(string element) // Memsukan node kedalam binary search tree
 	{
-		
-
+		Node* newNode = new Node(element, NULL, NULL); // Untuk menyipkan memory untuk new node
 	}
 };
