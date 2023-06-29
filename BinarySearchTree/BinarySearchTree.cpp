@@ -31,5 +31,8 @@ public:
 	{
 		Node* newNode = new Node(element, NULL, NULL); // Untuk menyipkan memory untuk new node
 		newNode->info = element; // Assign value to the data field of the new node
+		newNode->leftchild = NULL; // Buat left child dari node baru ke NULL
+		newNode->rightchild = NULL; // Buat right child dari node baru ke NULL
+
 	}
 };
