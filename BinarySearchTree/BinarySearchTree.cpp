@@ -58,5 +58,6 @@ public:
 	{
 		//This function search the currentNode of the specified Node as well as the current Node of its parent
 		currentNode = ROOT;
+		parent = NULL;
 	}
 };
